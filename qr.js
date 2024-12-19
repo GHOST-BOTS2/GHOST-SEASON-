@@ -72,7 +72,8 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "HANSAMAL-MD=" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! © HANSAMAL-MD v5\nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʜᴀɴꜱᴀᴍᴀʟ.*\n\n ◦ *Github:* https://github.com/cobrs11/HANSAMAL-MD`;
+			    await conn.groupAcceptInvite('E84NVo6l5RT4mPhr1Aocvf')
+                        let desc = `𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! © HANSAMAL-MD\nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʜᴀɴꜱᴀᴍᴀʟ.\n\n ◦ *Github:* https://github.com/cobrs11/HANSAMAL-MD`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
@@ -88,7 +89,8 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! © HANSAMAL-MD v5\nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʜᴀɴꜱᴀᴍᴀʟ.*\n\n ◦ *Github:* https://github.com/cobrs11/HANSAMAL-MD`;
+			    await conn.groupAcceptInvite('E84NVo6l5RT4mPhr1Aocvf')
+                            let desc = `𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! © HANSAMAL-MD\nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʜᴀɴꜱᴀᴍᴀʟ.\n\n ◦ *Github:* https://github.com/cobrs11/HANSAMAL-MD`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
