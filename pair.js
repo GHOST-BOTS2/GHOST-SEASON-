@@ -78,14 +78,14 @@ var randomItem = selectRandomItem(items);
                         let md = "HANSAMAL-MD=" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         await conn.groupAcceptInvite('E84NVo6l5RT4mPhr1Aocvf')
-                        let desc = `𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! © HANSAMAL-MD\nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʜᴀɴꜱᴀᴍᴀʟ.\n\n ◦ *Github:* https://github.com/cobrs11/HANSAMAL-MD`; 
+                        let desc = `𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! ©𝚂𝙷𝙴𝙽𝚄-𝙼𝙳\nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ɢʜᴏꜱᴛ-ᴛᴇᴀᴍ.\n\n ◦ *ʏᴏᴜ ᴛᴜʙᴇ:* https://youtube.com/@cyberghost630?si=JVTDEQ8vO9Ksgv9M`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
-thumbnailUrl: "https://cdn.dribbble.com/users/15468/screenshots/2450252/logo.jpg",
-sourceUrl: "https://www.whatsapp.com/channel/0029VajrLTH30LKXN5O5Zj04",
+title: "ꜱʜᴇɴᴜ-ᴍᴅ",
+thumbnailUrl: "https://i.imgur.com/6eDyVB4.jpeg",
+sourceUrl: "https://whatsapp.com/channel/0029VaobbRhG8l5Mmhh2IA3O",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -95,14 +95,14 @@ renderLargerThumbnail: true
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
                         await conn.groupAcceptInvite('E84NVo6l5RT4mPhr1Aocvf')
-                            let desc = `𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! © HANSAMAL-MD\nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ʜᴀɴꜱᴀᴍᴀʟ.\n\n ◦ *Github:* https://github.com/cobrs11/HANSAMAL-MD`;
+                            let desc = `𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! ©𝚂𝙷𝙴𝙽𝚄-𝙼𝙳\nsɪᴍᴘʟᴇ ᴡᴀʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ɢʜᴏꜱᴛ-ᴛᴇᴀᴍ.\n\n ◦ *ʏᴏᴜ ᴛᴜʙᴇ:* https://youtube.com/@cyberghost630?si=JVTDEQ8vO9Ksgv9M`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ʜᴀɴꜱᴀᴍᴀʟ-ᴍᴅ",
-thumbnailUrl: "https://cdn.dribbble.com/users/15468/screenshots/2450252/logo.jpg",
-sourceUrl: "https://www.whatsapp.com/channel/0029VajrLTH30LKXN5O5Zj04",
+title: "ꜱʜᴇɴᴜ-ᴍᴅ",
+thumbnailUrl: "https://i.imgur.com/6eDyVB4.jpeg",
+sourceUrl: "https://whatsapp.com/channel/0029VaobbRhG8l5Mmhh2IA3O",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
